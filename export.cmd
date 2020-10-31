@@ -60,5 +60,4 @@ if !IsExternal!==1 (
 endlocal
 
 
-:: export.bat 파일 위치로 변경
 c:\Programs\esp-idf\export.bat
