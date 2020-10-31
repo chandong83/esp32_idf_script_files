@@ -8,7 +8,11 @@
     flash.cmd   < 업로드
     monitor.cmd < 시리얼 모니터
 
+
+위 파일들을 자신의 프로젝트로 복사해 사용한다.
+
 <br><br>
+
 
 
 ## 1. ESP32 IDF 설치
