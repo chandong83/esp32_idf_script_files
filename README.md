@@ -19,7 +19,7 @@
 
 ## 2. export.cmd의 IDF SDK 위치 수정 
 
-export.cmd 파일을 열어 가장 아래에 있는 IDF SDK 위치 변경
+export.cmd 파일을 열어 가장 아래에 있는 IDF 위치한 export.bat로 변경
 
 ![blob/scr3.png](blob/scr3.png)
 
