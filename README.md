@@ -44,6 +44,8 @@ export.cmd 파일을 열어 가장 아래에 있는 IDF 위치한 export.bat로 
 
 ## 4. 개발 환경 설정
 
+동작 : esp-idf path\export.bat 실행
+
         D:\esp\prject > export.cmd
 
 ![blob/scr2.png](blob/scr2.png)
@@ -58,12 +60,17 @@ export.cmd 파일을 열어 가장 아래에 있는 IDF 위치한 export.bat로 
 
 ## 5. 빌드
 
+동작 : idf.py build 실행
+
         D:\esp\prject > build.cmd
 
 <br><br>
 
 
 ## 6. 업로드
+
+동작 : idf.py [port] -b 921600 flash 실행
+
 
         D:\esp\prject > flash.cmd [option port number]
         ex> D:\esp\prject > flash.cmd # < upload (when there is only one port)
@@ -73,6 +80,9 @@ export.cmd 파일을 열어 가장 아래에 있는 IDF 위치한 export.bat로 
 
 
 ## 7. 모니터링
+
+동작 : idf.py [port] -b 921600 monitor 실행
+
 
         D:\esp\prject > monitor.cmd [option port number]
         ex> D:\esp\prject > monitor.cmd # < run monitor (when there is only one port)
